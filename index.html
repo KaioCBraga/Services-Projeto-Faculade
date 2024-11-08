@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
+
+    <title>Serviços Ofertados</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="assets/logo.png" alt="Logo" />
+        </div>
+
+        <div class="user-options">
+          <a href="#" class="user-option">
+            <i>👤</i>
+            <span>Login</span>
+          </a>
+          <a href="#" class="user-option">
+            <i>⚙️</i>
+            <span>Configurações</span>
+          </a>
+        </div>
+
+        <button class="mobile-menu-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">Página Inicial</a></li>
+            <li><a href="#" class="nav-link">Serviços Ofertados</a></li>
+            <li><a href="#" class="nav-link">Agendamento de Serviços</a></li>
+            <li><a href="#" class="nav-link">Serviços em Aberto</a></li>
+            <li><a href="#" class="nav-link">Serviços Realizados</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <nav>
+        <ul class="mobile-nav-links">
+          <li>
+            <a href="#" class="mobile-nav-link"><i>🏠</i>Página Inicial</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-nav-link"><i>🛠️</i>Serviços Ofertados</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-nav-link"
+              ><i>📅</i>Agendamento de Serviços</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mobile-nav-link"><i>👨‍🔧</i>Serviços em Aberto</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-nav-link"><i>🚗</i>Serviços Realizados</a>
+          </li>
+          <div class="menu-divider"></div>
+          <li>
+            <a href="#" class="mobile-nav-link"><i>👤</i>Login</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-nav-link"><i>⚙️</i>Configurações</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu-overlay"></div>
+
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__image">
+          <img id="minhaImagem" src="assets/img/revisao-veicular.jpeg" alt="" />
+        </div>
+        <div class="hero__data">
+          <h3 id="meuTitle">Revisão Completa</h3>
+          <p id="meuTexto">
+            - A revisão veicular é uma vistoria dos componentes mais importantes
+            do automóvel. <br /><br />
+            - Geralmente, a revisão deve ser feita a cada 6 meses ou a cada 10
+            mil quilômetros rodados. <br />
+            <br />
+          </p>
+          <div class="hero__buttons">
+            <a href="#" class="hero__buttons agd">Fazer Agendamento</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="card__container swiper">
+        <div class="card__content">
+          <div class="swiper-wrapper">
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/revisao-veicular.jpeg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Revisão Completa</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="revisao">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/alinhamento-3d.webp"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Alinhamento 3D</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="alinhamento">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/troca_de_pneu.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Troca de Pneu</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="pneu">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/freios.webp"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Freios</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="freios">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/suspensao-carro.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Suspensão</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="suspensao">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/ar-condicionado-carro.webp"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Ar Condicionado</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="arCondicionado"
+                  >Selecionar</a
+                >
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/injecao-eletrica.jfif"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Injeção Eletrônica</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="injecaoEle">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img src="assets/img/oleo.jpg" alt="image" class="card__img" />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Troca de óleo</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="oleo">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/acessorios.png"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Acessórios</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">✔️</i>Serviço disponível em todos os
+                  nossos parceiros Autocheck. <br />
+                  <i>🚗</i>
+                </p>
+
+                <a href="#" class="card__button" id="acessorios">Selecionar</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/mecanico.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Outros</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">❌</i>Não encontrou o serviço que
+                  procura? <br />
+                  Entre em contato conosco!
+                  <br />
+                </p>
+
+                <a href="#" class="card__button" id="contato">Contato</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/mecanico.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Outros</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">❌</i>Não encontrou o serviço que
+                  procura? <br />
+                  Entre em contato conosco!
+                  <br />
+                </p>
+
+                <a href="#" class="card__button" id="contato">Contato</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/mecanico.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Outros</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">❌</i>Não encontrou o serviço que
+                  procura? <br />
+                  Entre em contato conosco!
+                  <br />
+                </p>
+
+                <a href="#" class="card__button" id="contato">Contato</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  src="assets/img/mecanico.jpg"
+                  alt="image"
+                  class="card__img"
+                />
+              </div>
+
+              <div class="card__data">
+                <h3 class="card__name">Outros</h3>
+                <p class="card__description">
+                  <i>👨‍🔧</i><br />
+                  <i class="disponible">❌</i>Não encontrou o serviço que
+                  procura? <br />
+                  Entre em contato conosco!
+                  <br />
+                </p>
+
+                <a href="#" class="card__button" id="contato">Contato</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-s-line"></i>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <footer>
+      <div class="contato">
+        <h4>Entre em contato</h4>
+        <div class="whatssap">
+          <img src="assets/icons/whatsapp.svg" alt="" height="30px" />
+          <span>(xx) xxxxxxxxx</span>
+        </div>
+        <div class="telefone">
+          <img src="assets/icons/telefone.svg" alt="" height="30px" />
+          <span>(xx) xxxxxxxxx</span>
+        </div>
+      </div>
+      <div class="footer-main">
+        <a href="index.html"
+          ><img src="assets/logo.png" alt="" height="200px"
+        /></a>
+        <span>© Copyright 2024</span>
+      </div>
+      <div class="redes-sociais">
+        <h4>Redes Sociais</h4>
+        <div class="facebook">
+          <a href="">
+            <img src="assets/icons/facebook.svg" alt="" height="30px" />
+            <span>Facebook</span>
+          </a>
+        </div>
+        <div class="instagram">
+          <a href=""
+            ><img src="assets/icons/instagram.svg" alt="" height="30px" />
+            <span>Instagram</span></a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hero-copy.js"></script>
+    <script src="js/header.js"></script>
+  </body>
+</html>
