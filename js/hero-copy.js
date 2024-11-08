@@ -1,7 +1,7 @@
 // Define a estrutura de dados dos serviços
 const servicos = {
   revisao: {
-    imagem: "../assets/img/revisao-veicular.jpeg",
+    imagem: "./assets/img/revisao-veicular.jpeg",
     titulo: "Revisão Completa",
     conteudo: [
       "A revisão veicular é uma vistoria dos componentes mais importantes do automóvel.",
@@ -9,7 +9,7 @@ const servicos = {
     ],
   },
   alinhamento: {
-    imagem: "../assets/img/alinhamento-3d.webp",
+    imagem: "./assets/img/alinhamento-3d.webp",
     titulo: "Alinhamento 3D",
     conteudo: [
       "O alinhamento 3D é uma tecnologia avançada que proporciona uma precisão incomparável no ajuste das rodas de um veículo.",
@@ -17,7 +17,7 @@ const servicos = {
     ],
   },
   pneu: {
-    imagem: "../assets/img/troca_de_pneu.jpg",
+    imagem: "./assets/img/troca_de_pneu.jpg",
     titulo: "Troca de Pneu",
     conteudo: [
       "Nossas oficinas oferecem uma ampla variedade de modelos de pneus de alta qualidade para atender às necessidades específicas do seu veículo.",
@@ -25,7 +25,7 @@ const servicos = {
     ],
   },
   freios: {
-    imagem: "../assets/img/freios.webp",
+    imagem: "./assets/img/freios.webp",
     titulo: "Freios",
     conteudo: [
       "O período de manutenção dos freios varia de acordo com o uso do automóvel e as condições.",
@@ -33,7 +33,7 @@ const servicos = {
     ],
   },
   suspensao: {
-    imagem: "../assets/img/suspensao-carro.jpg",
+    imagem: "./assets/img/suspensao-carro.jpg",
     titulo: "Suspensão",
     conteudo: [
       "A manutenção regular da suspensão é essencial para o funcionamento e segurança do veículo.",
@@ -41,7 +41,7 @@ const servicos = {
     ],
   },
   arCondicionado: {
-    imagem: "../assets/img/ar-condicionado-carro.webp",
+    imagem: "./assets/img/ar-condicionado-carro.webp",
     titulo: "Ar Condicionado",
     conteudo: [
       "É recomendado realizar verificações periódicas, que incluem a troca do filtro de cabine, a verificação do nível de gás refrigerante, a limpeza do sistema e inspeção de vazamentos.",
@@ -49,7 +49,7 @@ const servicos = {
     ],
   },
   injecaoEle: {
-    imagem: "../assets/img/injecao-eletrica.jfif",
+    imagem: "./assets/img/injecao-eletrica.jfif",
     titulo: "Injeção Eletrônica",
     conteudo: [
       "A injeção eletrônica é um sistema que garante o envio controlado de combustível ao motor do veículo.",
@@ -57,7 +57,7 @@ const servicos = {
     ],
   },
   oleo: {
-    imagem: "../assets/img/oleo.jpg",
+    imagem: "./assets/img/oleo.jpg",
     titulo: "Troca de óleo",
     conteudo: [
       "A troca de óleo é necessária para manter o motor funcionando em condições adequadas.",
@@ -65,7 +65,7 @@ const servicos = {
     ],
   },
   acessorios: {
-    imagem: "../assets/img/acessorios.png",
+    imagem: "./assets/img/acessorios.png",
     titulo: "Acessórios",
     conteudo: [
       "Todos os acessórios para o seu carro estão disponíveis em nossas oficinas, com a garantia de qualidade e instalação especializada..",
